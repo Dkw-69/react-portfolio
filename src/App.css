@@ -628,6 +628,284 @@ ul.skills-listing li::before{
 }
 
 
+/* MEDIA*/
+@media (max-width: 480px) {
+  br {
+    display: none;
+  }
+  .fa-bars{
+    color:#dee3ea; 
+    font-size:28px;
+  }
+  .navbar-collapse .navbar-nav{
+    background: #151a21 !important;
+  }
+  .navbar-nav .nav-item{
+    padding-right: 15px !important;
+  }
+  .navbar-nav li{
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+  .extra-container{
+    overflow: hidden;
+    width: 100% !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .logo{
+    height: 40px;
+  }
+  
+  .container{
+    overflow: hidden !important;
+  }
+  
+  .navbar-nav{
+    background: #fff;
+    margin-top: 5px;
+  }
+  
+  .introduction{
+    padding-top: 77px;
+  }
+  
+  .intro-text h5{
+    padding-left: 0 !important;
+    font-size: 14px;
+    padding-bottom: 2px;
+  }
+  
+  .intro-text h1{
+    font-size: 25px;
+  }
+  
+  .intro-text .intro-sub{
+    font-size: 20px;
+  }
+  
+  .intro-text p{
+    font-size: 15px;
+  }
+  
+  .cta button{
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+  
+  .social-icons h6{
+    font-size: 14px;
+  }
+  
+  .github, .linkedin{
+    font-size: 28px;
+  }
+  
+  .about-major-section{
+    padding-top: 80px;
+  }
+  
+  .About{
+    text-align: center;
+    margin-left: auto !important;
+  }
 
+  .about{
+    font-size: 25px;
+  }
+  
+  .about::after{
+    display: none;
+  }
+  
+  .About p{
+    margin: 0;
+  }
+
+  .skills-listing{
+    grid-template-columns: none;
+  }
+
+  .skills-section ul li{
+    margin-left: 0 !important;
+  }
+
+  
+  ul.skills-listing li::before {
+  left: 95px;
+  }
+  
+  .row{
+    padding-top: 0;
+  }
+  
+  .skills-section{
+    text-align: center;
+  }
+  
+  .projects-section{
+    padding-top: 80px;
+    text-align: center;
+  }
+  
+  .projects{
+    font-size: 25px;
+  }
+  
+  .projects::after{
+    display: none;
+  }
+  
+  .projects-para{
+    font-size: 15px !important;
+    margin-bottom: 50px;
+  }
+  
+  .project-image {
+    width: auto !important;
+    padding-left: 0;
+  }
+  
+  .project-image img{
+    height: 330px;
+    width: 100% !important;
+  }
+
+  .overlay{
+    display: none;
+  }
+  
+  .project{
+    text-align: center;
+    left: 0;
+    top: 0;
+  }
+  
+  .project-title{
+    top: 0;
+    left: 0;
+    padding-top: 5px;
+  }
+  
+  .project-child {
+    height: auto;
+    width: 100% !important;
+    background: #151a21;
+    border-radius: 2px;
+    border: none;
+  }
+
+  .project-child .project-description {
+    padding: 40px;
+    color: #ccd0d6;
+  }
+  
+  .project-stack{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .project-stack{
+    margin-top: 0;
+  }
+  
+  .project-stack h6{
+    font-size: 14px;
+  }
+  
+  .projectb{
+    text-align: center;
+    top: 2%;
+    right: 0;
+  }
+  
+  .projectb-title{
+    top: 0;
+    left: 0;
+    font-size: 22px;
+    font-weight: 700 !important;
+    text-align: center;
+  }
+  
+  .projectb-child{
+    text-align: center;
+    width: 100%;
+    border: none;
+    height: auto;
+  }
+  
+  .projectb-stack{
+    text-align: center;
+    position: static;
+    margin-top: 0;
+  }
+  
+  .projectb-image{
+    position: static;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .projectb-overlay{
+    display: none;
+  }
+  
+  .projectb-image img{
+    height: 330px;
+  }
+  
+  .extra-projects{
+    padding-top: 70px;
+  }
+  
+  .projects-extra{
+    font-size: 25px;
+  }
+  
+  .project-div{
+    margin-top: 0;
+    padding-top: 70px;
+    height: auto;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  
+  .folder .far{
+    font-size: 30px;
+  }
+  
+  .iconz{
+    top: -16%;
+    right: 5%;
+  }
+  
+  .mid-head{
+    font-size: 21px;
+  }
+  
+  .contact-text{
+    text-align: center !important;
+    margin: 30px 20px;
+  }
+  
+  .contact-section{
+    padding-top: 100px;
+  }
+  
+  .contact-header{
+    font-size: 28px;
+  }
+  
+  .contact-header::after{
+    display: none;
+  }
+
+  .contact-button{
+    margin-top: 20px;
+  }  
+}
 
 
