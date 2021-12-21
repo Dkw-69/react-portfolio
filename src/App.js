@@ -1,7 +1,7 @@
 import './App.css';
 import logo from './images/bitmap2.png'
 import banter from './images/banter.png'
-import creativeag from './images/creativeag.png'
+import webtrybe from './images/webtrybe-shot.png'
 import todo from './images/super-todo.png'
 
 function App() {
@@ -82,8 +82,8 @@ function App() {
                     <li>Javascript(ES6)</li>
                     <li>React.js</li>
                     <li>Node.js</li>
-                    <li>Express</li>
-                    <li>Mongodb</li>
+                    <li>PHP</li>
+                    <li>WordPress</li>
                     <li>Django</li>
                 </ul>
               </div>
@@ -123,26 +123,27 @@ function App() {
           <div className="row project-row">
             <div className="col-lg-4 col-md-12 col-sm-12">
               <div className="projectb">
-                <h5 className="projectb-title">Creative Agency</h5>
+                <h5 className="projectb-title">Webtrybe Agency</h5>
                 <div className="projectb-child">
                   <p className="projectb-description">
-                    This is a webapp for an agency. The app has a sanity api for storing blogs. I built 
-                    the app using react, materialize for styling and sanity backend for the blogs.
+                    This is a webapp for my freelancing agency. I built 
+                    a custom PHP backend which includes authentication for the admin panel. The frontend is made of a 
+                    wordpress/bootstrap template that only required minor changes to fit the desired design. 
                   </p>
                 </div>
                 <div className="projectb-stack">
-                  <h6 className="projectb-text">React</h6>
-                  <h6 className="projectb-text">Materialize.</h6>
-                  <h6 className="projectb-text">Sanity Api</h6>
-                  <a className="project-link" target="_blank" rel="noreferrer" href="https://github.com/Dkw-69/creativeag"><i className="fab fa-github github-link"></i></a>
-                  <a className="projectb-link" target="_blank" rel="noreferrer" href="https://creativeag.xyz/"><i className="fas fa-external-link-alt"></i></a>
+                  <h6 className="projectb-text">PHP</h6>
+                  <h6 className="projectb-text">Bootstrap</h6>
+                  <h6 className="projectb-text">Javascript</h6>
+                  <a className="project-link" target="_blank" rel="noreferrer" href="https://github.com/Dkw-69"><i className="fab fa-github github-link"></i></a>
+                  <a className="projectb-link" target="_blank" rel="noreferrer" href="https://webtrybe.com/public/home"><i className="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             </div>
             <div className="col-lg-8 col-md-6 col-sm-12">
               <div className="projectb-image">
               <div className="projectb-overlay"></div>
-                <img src={creativeag} alt=""/>
+                <img src={webtrybe} alt=""/>
               </div>
             </div>
           </div>
@@ -213,7 +214,7 @@ function App() {
                   <div className="text">
                     <h3 className="mid-head">Blogr App</h3>
                     <p className="mid-para">
-                      I was able to build this full stack webapp but due to limited vps knowledge could not afford to 
+                      I was able to build this full stack webapp but due to limited funds, I could not afford to 
                       host. The front end is react and materialize while the backend is nodejs. Please 
                       visit the repo and install to run locally.
                     </p>
