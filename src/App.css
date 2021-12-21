@@ -412,14 +412,14 @@ ul.skills-listing li::before{
 }
 
 .projectb-child{
- height: 150px;
+ height: 170px;
  width: 530px;
  background: #151a21;
  border-radius: 5px;
 }
 
 .projectb-child .projectb-description{
- padding: 40px 40px;
+ padding: 30px 40px;
  color: #dee3ea;
  font-weight: 300;
 }
